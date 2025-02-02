@@ -1,0 +1,38 @@
+# Definir os conceitos e suas descrições
+conceitos = {
+    "Modelos do Azure OpenAI": "Modelos de IA treinados e fornecidos pelo Azure OpenAI",
+    "Recursos do Azure OpenAI": "Configurações para hospedar e gerenciar modelos de IA",
+    "Benefícios do Azure OpenAI": "Soluções escaláveis e integradas ao Azure",
+    "Casos de Uso do Azure OpenAI": "Suporte a aplicações como chatbots e análise de dados"
+}
+
+def exibir_conceitos():
+    """Exibe a lista de conceitos disponíveis."""
+    print("Conceitos disponíveis:")
+    for conceito in conceitos:
+        print(f"- {conceito}")
+
+def obter_descricao(conceito):
+    """Retorna a descrição associada ao conceito fornecido."""
+    return conceitos.get(conceito, "Conceito inválido. Por favor, insira um conceito válido.")
+
+def executar():
+    """Função principal que controla o fluxo do programa."""
+    print("Bem-vindo à aplicação educacional sobre o Azure OpenAI!")
+    
+    while True:
+        exibir_conceitos()
+        
+        # Solicita ao usuário que insira um conceito
+        conceito = input("\nDigite o nome de um conceito para obter a descrição (ou 'sair' para finalizar): ")
+        
+        if conceito.lower() == 'sair':
+            print("Obrigado por usar a aplicação! Até logo!")
+            break
+        
+        descricao = obter_descricao(conceito)
+        print(f"\nDescrição: {descricao}\n")
+
+# Iniciar o programa
+if __name__ == "__main__":
+    executar()

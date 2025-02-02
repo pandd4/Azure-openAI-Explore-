@@ -1,26 +1,25 @@
-# Azure OpenAI Concepts
+# Aplicação Educacional: Azure OpenAI Conceitos
 
-Uma aplicação educacional para correspondência de conceitos do Azure OpenAI.
-
-## Descrição
-
-Esta aplicação permite aos usuários:
-- Visualizar conceitos do Azure OpenAI
-- Obter descrições detalhadas de cada conceito
-- Explorar todos os conceitos disponíveis
-- Aprender sobre as funcionalidades do Azure OpenAI
+Este projeto é uma aplicação educacional que ajuda a explorar e entender os conceitos relacionados ao Azure OpenAI. Ele permite aos usuários selecionar diferentes conceitos do Azure OpenAI e obter descrições detalhadas de cada um.
 
 ## Funcionalidades
 
-- Interface intuitiva para seleção de conceitos
-- Exibição instantânea das descrições
-- Lista completa de conceitos disponíveis
-- Validação de entrada
-- Mensagens de erro claras
+- Visualização de conceitos do Azure OpenAI.
+- Obtenção de descrições detalhadas de conceitos.
+- Interface interativa para selecionar conceitos.
+- Validação de entradas e mensagens de erro claras.
 
 ## Como Executar
 
-1. Certifique-se de ter Python instalado
-2. Instale as dependências:
+### Requisitos
 
-link de teste: https://948f49e0-0bd2-40b4-8977-ef0ae5a3f711-00-2ho02pvu9z2b.spock.replit.dev/
+- Python 3.x instalado no seu sistema.
+- Dependências listadas no arquivo `requirements.txt` (se houver).
+
+### Passos para rodar a aplicação
+
+1. **Clonar o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/azure-openai-conceitos.git
+   

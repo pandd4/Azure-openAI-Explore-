@@ -22,3 +22,5 @@ Esta aplicação permite aos usuários:
 
 1. Certifique-se de ter Python instalado
 2. Instale as dependências:
+
+link de teste: https://948f49e0-0bd2-40b4-8977-ef0ae5a3f711-00-2ho02pvu9z2b.spock.replit.dev/
